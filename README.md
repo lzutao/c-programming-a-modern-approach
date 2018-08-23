@@ -17,7 +17,7 @@ The new edition is available at online bookstores worldwide,
 including the following Amazon sites:
 
 |                      |                       |                     |
-|----------------------|-----------------------|---------------------|
+|:---------------------|:----------------------|:--------------------|
 | [Amazon.com] (U.S.)  | [Amazon.de] (Germany) | [Amazon.jp] (Japan) |
 | [Amazon.ca] (Canada) | [Amazon.fr] (France)  | [Amazon.uk] (U.K.)  |
 
