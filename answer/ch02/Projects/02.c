@@ -1,10 +1,13 @@
 #include <stdio.h>
 
-#define pi 3.14159
-#define frac 4.0f/3.0f
+#define PI 3.14159
+#define SPHERE_SCALE (4.0 / 3.0)
 
 int main(void)
 {
-    float vol = frac * (pi * (10 * 10 * 10));
-    printf("%.2f", vol);
+  int radius = 10;
+  double vol = SPHERE_SCALE * PI * (radius * radius * radius);
+
+  printf("%.2f\n", vol);
+  return 0;
 }
