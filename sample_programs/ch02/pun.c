@@ -7,7 +7,9 @@
  * provided that this copyright notice is retained.      *
  *********************************************************/
 
+
 /* pun.c (Chapter 2, page 10) */
+/* Purpose: print a bad pun. */
 
 #include <stdio.h>
 
