@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-int a,b,c;
-float d,e,f;
 
 int main()
 {
-	printf("%d, %d, %d, %f, %f, %f");
+  int a,b,c;
+  float d,e,f;
+  printf("%d, %d, %d, %f, %f, %f\n", a, b, c, d, e, f);
+  return 0;
 }
