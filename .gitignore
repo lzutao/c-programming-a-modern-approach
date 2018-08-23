@@ -1,10 +1,17 @@
-### https://raw.github.com/github/gitignore/b8da0e3a89f5d75acdb9d5fed06700bfff3695f9/C.gitignore
+### C ###
+# Prerequisites
+*.d
 
 # Object files
 *.o
 *.ko
 *.obj
 *.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
 
 # Precompiled Headers
 *.gch
@@ -32,5 +39,15 @@
 
 # Debug files
 *.dSYM/
+*.su
+*.idb
+*.pdb
 
-
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
