@@ -6,10 +6,10 @@ int main(void)
 
     printf("Enter a three-digit number: ");
     scanf("%d", &num);
- 
+
+    n3 = num % 10;
+    n2 = (num / 10) % 10;
     n1 = num / 100;
-    n2 = (num % 100) / 10;
-    n3 = (num % 100) % 10;
     printf("The reversal is: %d%d%d", n3, n2, n1);
 
     return 0;
